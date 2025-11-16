@@ -129,7 +129,7 @@ def saque(*,saldo, valor, extrato, limite, numero_saques, limite_saques):
     else:
         print("Operação falhou! O valor informado é inválido.")
 
-    return saldo, extrato
+    return saldo, extrato, numero_saques
 
 def deposito(saldo, valor, extrato,/):
     if valor > 0:
